@@ -166,6 +166,7 @@ typescript: ~5.6.2
 - Modify the `settings.py` file if your database credentials or CORS origins differ.
 - Ensure GDAL is correctly installed and its path is set (as specified in `settings.py`).
 - The frontend is configured to communicate with the backend running at `http://localhost:8000` via CORS.
+- Configure an environnment file inside /backend/test_backend which contains "GDAL_LIBRARY_PATH" with your own configuration path, else the backend won't work
 
 For any questions or issues, feel free to reach out!
 
