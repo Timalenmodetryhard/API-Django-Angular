@@ -1,0 +1,78 @@
+.DS_Store
+Thumbs.db
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.env
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Logs
+*.log
+*.out
+*.err
+
+# Virtual Environment
+venv/
+env/
+
+# Django migrations
+*.sqlite3
+db.sqlite3
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.log
+*/migrations/__pycache__/
+
+# Static et media files générés
+staticfiles/
+media/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular builds
+dist/
+build/
+.angular/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Logs, secrets, et fichiers temporaires
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
